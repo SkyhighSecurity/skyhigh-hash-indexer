@@ -1,0 +1,22 @@
+inputs:
+  AWS:
+    awsAccounts:
+      - accountID: "296712556520"
+        accessKey: "AKIAUKFLSJ7UBYOJXFQ4"
+        secretAccessKey: "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"
+        scanAllBuckets: true
+        buckets: []
+
+#      - accountID: "210987654321"
+#        accessKey: "AKIAI44QH8DHBEXAMPLE"
+#        secretAccessKey: "je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY"
+#        scanAllBuckets: false
+#        buckets: ["bucket-one", "bucket-two"]
+
+outputs:
+  AWS:
+    bucketName: "skyhigh-ndexer-output-fs1dfwe4"
+    fileKey: "index.csv"
+    accountID: "296712556520"
+    accessKey: "AKIAUKFLSJ7UBYOJXFQ4"
+    secretAccessKey: "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"
