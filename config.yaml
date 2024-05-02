@@ -6,6 +6,10 @@ inputs:
         secretAccessKey: "4Ynh1LLn8vbq3bxFB97vkEIuLlOEIGdD5V0DzSB7"
         scanAllBuckets: true
         buckets: []
+#  Microsoft:
+#    tenant_id: "your-tenant-id"
+#    client_id: "your-client-id"
+#    client_secret: "your-client-secret"
 
 #      - accountID: "210987654321"
 #        accessKey: "AKIAI44QH8DHBEXAMPLE"
