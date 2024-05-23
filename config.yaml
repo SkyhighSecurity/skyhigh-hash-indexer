@@ -8,14 +8,10 @@ inputs:
         buckets: []
   Microsoft:
     onedriveAccounts:
-      - accountID: "987654321"
-        tenant_id: "your-tenant-id"
-        client_id: "your-client-id"
-        client_secret: "your-client-secret"
-        accessKey: "AKIAI44QH8DHBEXAMPLE"
-        secretAccessKey: "je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY"
-        scanAllBuckets: false
-        buckets: ["bucket-one", "bucket-two"]
+      - tenant_id: "dc843d33-976c-43d8-9e0b-6fa802986077"
+        client_id: "8593b514-f63c-43dd-86eb-f035f506ebeb"
+        client_secret: "6oj8Q~fwPZ7OoG-kTbcVJe5ZVSCCZ5Iq3OV_IcL3"
+
 
 outputs:
   AWS:
