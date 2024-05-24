@@ -1,26 +1,30 @@
 inputs:
   AWS:
     awsAccounts:
-      - accountID: "1234567"
-        accessKey: "AKIADEADBEEF4DAD"
-        secretAccessKey: "yOuR5ecRtaxsessKeyGoesH3re"
+      - accountID: "1234"
+        accessKey: "asdf"
+        secretAccessKey: "asdf"
         scanAllBuckets: true
         buckets: []
   Microsoft:
     onedriveAccounts:
-      - accountID: "987654321"
-        tenant_id: "your-tenant-id"
-        client_id: "your-client-id"
-        client_secret: "your-client-secret"
-        accessKey: "AKIAI44QH8DHBEXAMPLE"
-        secretAccessKey: "je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY"
-        scanAllBuckets: false
-        buckets: ["bucket-one", "bucket-two"]
+      - tenant_id: "asdf"
+        client_id: "asdf"
+        client_secret: "asdf"
+        scanAllUsers: true
+        scanUsers: 
+          - "admin@skyhighlabs.onmicrosoft.com"
 
-outputs:
+
+storage:
   AWS:
-    bucketName: "your-bucket-name"
-    fileKey: "index.csv"
-    accountID: "1234567"
-    accessKey: "AKIADEADBEEF4DAD"
-    secretAccessKey: "yOuR5ecRtaxsessKeyGoesH3re"
+    accountID: "1234"
+    accessKey: "asdf"
+    secretAccessKey: "asde"
+    bucketName: "skyhigh-ndexer-output-fs1dfwe4"
+    awsHashIndexFile: "s3-fileindex.csv"
+    onedriveIndexFile: "onedrive-fileindex.csv"
+    microsoftMetadataDB: "hashes.db"
+    retainFiles: true
+
+
